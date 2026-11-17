@@ -1,0 +1,25 @@
+{
+  "name": "proxy-search-browser",
+  "version": "1.0.0",
+  "description": "A lightweight browser UI that routes search requests through a local proxy before fetching results.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [
+    "proxy",
+    "search",
+    "browser",
+    "express"
+  ],
+  "author": "bgennetten-ai",
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.12",
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.16"
+  }
+}
